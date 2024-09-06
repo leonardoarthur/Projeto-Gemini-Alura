@@ -6,49 +6,28 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Projeto Alura</title>
   </head>
+
   <body>
+
     <header>
       <h1>Jogos ###</h1>
     </header>
+
     <main>
-      <section class="resultados-pesquisa">
+      <section>
         <input type="text" placeholder="Digite o nome do jogo" />
-        <button>Buscar</button>
-        <div class="item-resultado">
-          <h2>
-            <a href="#">Cyberpunk 2077</a> 
-          </h2>
-            <p class="descricao-meta">
-              Cyberpunk 2077 é um jogo de RPG de ação ambientado em Night City, uma megalópole futurista e distópica, onde a tecnologia se funde com o corpo humano e as corporações dominam a sociedade. O jogador assume o papel de V, um mercenário ciberneticamente modificado, que se envolve em uma trama perigosa em busca de imortalidade. O jogo oferece um mundo aberto imenso e detalhado, com diversas facções, missões e personagens, permitindo ao jogador explorar a cidade e construir sua própria história. Cyberpunk 2077 é conhecido por sua narrativa envolvente, gráficos impressionantes e jogabilidade viciante, embora tenha enfrentado algumas críticas por problemas técnicos no lançamento.
-          </p>
-          <a href="https://www.cyberpunk.net/br/pt-br/" target="_blank">Mains informações</a>
-        </div>
+        <button onclick="pesquisar()">Buscar</button>
+      </section>
 
-        <div class="item-resultado">
-          <h2>
-              <a href="#">DOM</a>
-          </h2>
-          <p class="descricao-meta">
-              DOM (Document Object Model) é uma interface para programas e scripts que permite que eles acessem e modifiquem o conteúdo, a estrutura e o estilo de documentos HTML. É uma API fundamental para a criação de páginas web dinâmicas e interativas.
-          </p>
-          <a href="https://developer.mozilla.org/pt-BR/docs/Web/API/Document_Object_Model" target="_blank">Mais informações</a>
-      </div>
-      
-      <div class="item-resultado">
-          <h2>
-              <a href="#">Animal Crossing: New Horizons</a>
-          </h2>
-          <p class="descricao-meta">
-              Animal Crossing: New Horizons é um simulador de vida em que o jogador cria sua própria ilha deserta, personaliza sua casa e interage com adoráveis animais. O jogo oferece uma experiência relaxante e criativa, permitindo que os jogadores explorem a ilha, coletem itens, pesquem e muito mais.
-          </p>
-          <a href="https://www.nintendo.com.br/jogos/nintendo-switch/animal-crossing-new-horizons" target="_blank">Mais informações</a>
-      </div>
-
+      <section class="resultados-pesquisa" 
+      id="resultados-pesquisa">
       </section>
     </main>
+
     <footer>
       <p>2024 - ###.  Todos os direitos reservados</p>
     </footer>
+
     <script src="dados.js"></script>
     <script src="app.js"></script>
   </body>
